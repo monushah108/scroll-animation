@@ -1,25 +1,25 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ScrollShowcase from "@/components/ScrollShowcase";
-import FeaturesSection from "@/components/FeaturesSection";
+import SpecsSection from "@/components/SpecsSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen bg-[#030305] text-white overflow-x-hidden">
-      {/* Floating Global Navbar */}
+    <main className="relative min-h-screen bg-zinc-950 text-zinc-100 overflow-x-hidden">
+      {/* Minimal Top Navigation */}
       <Navbar />
 
-      {/* Hero Section (Above the fold - Layout, Headline, Metrics, 3D Supercar, Initial GSAP Load Reveal) */}
+      {/* Hero Section (Letter-spaced Headline, 3 Simple Stats, Minimal Product Visual) */}
       <HeroSection />
 
-      {/* Core Scroll-Based Animation Section (GSAP ScrollTrigger Scrubbing with 3D Supercar) */}
+      {/* Scroll-Based Visual Animation with GSAP ScrollTrigger */}
       <ScrollShowcase />
 
-      {/* Architectural Features & Interactive Mode Demonstrator */}
-      <FeaturesSection />
+      {/* Specifications & Technical Restraint */}
+      <SpecsSection />
 
-      {/* Site Footer */}
+      {/* Minimalist Clean Footer */}
       <Footer />
     </main>
   );
