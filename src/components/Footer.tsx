@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { ArrowUp, Sparkles, Terminal, Github, Heart } from "lucide-react";
+import { ArrowUp, Sparkles, Terminal, Heart } from "lucide-react";
 
 export default function Footer() {
   const scrollToTop = () => {
